@@ -1,2 +1,2 @@
-# Project_Web_Advanced
-## Đây là dự án của môn học Thiết Kế Web Nâng Cao
+# HSK - HanyuShuipingKaoshi
+## Đây là dự án của môn học Thiết Kế Web Nâng Cao về đề tài xây dựng trang web thi HSK
