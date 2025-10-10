@@ -43,9 +43,9 @@
                 {{ __('Đăng nhập') }}
             </x-primary-button>
 
-            <x-secondary-button class="ms-3">
+            <x-primary-button class="ms-3">
                 <a href="{{ route('register') }}">{{ __('Đăng ký') }}</a>
-            </x-secondary-button>
+            </x-primary-button>
         </div>
     </form>
 </x-guest-layout>

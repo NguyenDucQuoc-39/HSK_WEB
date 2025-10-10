@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\VocabularyController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -17,10 +18,22 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
-Route::view('/thi-hsk', 'pages.thi-hsk')->name('thi-hsk');
-Route::view('/on-tap', 'pages.on-tap')->name('on-tap');
+Route::view('/thi-hsk', 'pages.hsk_exam.thi-hsk')->name('thi-hsk');
+Route::view('/on-tap', 'pages.vocabulary.on-tap')->name('on-tap');
 Route::view('/dich', 'pages.dich')->name('dich');
 Route::view('/cong-dong', 'pages.cong-dong')->name('cong-dong');
 
+
+Route::middleware('auth')->group(function () {
+    // Ôn tập từ vựng
+Route::get('/on-tap', [VocabularyController::class, 'index'])->name('on-tap');
+Route::post('/on-tap', [VocabularyController::class, 'store'])->name('vocabulary.store');
+Route::put('/on-tap/{id}', [VocabularyController::class, 'update'])->name('vocabulary.update');
+Route::delete('/on-tap/{id}', [VocabularyController::class, 'destroy'])->name('vocabulary.destroy');
+
+// Hiển thị từ vựng theo cấp độ HSK
+Route::get('/on-tap/hsk/{id}', [VocabularyController::class, 'showByLevel'])->name('vocabulary.level');
+
+});
 
 require __DIR__.'/auth.php';
