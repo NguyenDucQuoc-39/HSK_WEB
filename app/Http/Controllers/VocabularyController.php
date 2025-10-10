@@ -109,4 +109,21 @@ class VocabularyController extends Controller
 
         return view('pages.vocabulary.by-level', compact('levels', 'selectedLevel', 'vocabularies'));
     }
+
+
+    public function flashcardReview($id)
+    {
+        $selectedLevel = HskLevel::findOrFail($id);
+
+        // Lấy tất cả từ vựng của level đó theo thứ tự ngẫu nhiên
+        // inRandomOrder() giúp mỗi lần ôn tập có một trải nghiệm mới
+        $vocabularies = Vocabulary::where('level_id', $id)->inRandomOrder()->get();
+
+        // Nếu không có từ vựng nào, quay về trang trước đó với thông báo
+        if ($vocabularies->isEmpty()) {
+            return redirect()->back()->with('error', 'Cấp độ này chưa có từ vựng để ôn tập.');
+        }
+
+        return view('pages.vocabulary.flashcard', compact('selectedLevel', 'vocabularies'));
+    }
 }

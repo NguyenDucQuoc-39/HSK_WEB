@@ -33,6 +33,7 @@ Route::delete('/on-tap/{id}', [VocabularyController::class, 'destroy'])->name('v
 
 // Hiển thị từ vựng theo cấp độ HSK
 Route::get('/on-tap/hsk/{id}', [VocabularyController::class, 'showByLevel'])->name('vocabulary.level');
+Route::get('/on-tap/{id}/flashcard', [VocabularyController::class, 'flashcardReview'])->name('vocabulary.flashcard');
 
 });
 
