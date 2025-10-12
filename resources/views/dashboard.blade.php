@@ -130,8 +130,8 @@
                 <div class="mt-4 flex items-center">
                     <img class="h-12 w-12 rounded-full" src="https://i.pravatar.cc/150?u=a042581f4e29026704d" alt="Avatar">
                     <div class="ml-4">
-                        <p class="font-semibold text-slate-900">Nguyễn Thu Trang</p>
-                        <p class="text-slate-500 text-sm">Sinh viên, Hà Nội</p>
+                        <p class="font-semibold text-slate-900">Nguyễn Đức Quốc</p>
+                        <p class="text-slate-500 text-sm">Sinh viên Đại Học Phenikaa, Hà Nội</p>
                     </div>
                 </div>
             </div>
@@ -141,8 +141,8 @@
                 <div class="mt-4 flex items-center">
                     <img class="h-12 w-12 rounded-full" src="https://i.pravatar.cc/150?u=a042581f4e29026704e" alt="Avatar">
                     <div class="ml-4">
-                        <p class="font-semibold text-slate-900">Trần Minh Đức</p>
-                        <p class="text-slate-500 text-sm">Nhân viên văn phòng, TP.HCM</p>
+                        <p class="font-semibold text-slate-900">Đặng Thanh Huyền</p>
+                        <p class="text-slate-500 text-sm">Sinh viên Đại Học Phenikaa, Hà Nội</p>
                     </div>
                 </div>
             </div>
@@ -152,8 +152,42 @@
                 <div class="mt-4 flex items-center">
                     <img class="h-12 w-12 rounded-full" src="https://i.pravatar.cc/150?u=a042581f4e29026704f" alt="Avatar">
                     <div class="ml-4">
-                        <p class="font-semibold text-slate-900">Lê Thị Mai</p>
-                        <p class="text-slate-500 text-sm">Du học sinh</p>
+                        <p class="font-semibold text-slate-900">Hoàng Kỳ Anh</p>
+                        <p class="text-slate-500 text-sm">Sinh viên Học Viện Công Nghệ Bưu Chính Viễn Thông, Hà Nội</p>
+                    </div>
+                </div>
+            </div>
+
+            {{-- Testimonial Card 4 --}}
+            <div class="bg-slate-50 p-8 rounded-xl shadow-md">
+                <p class="text-slate-600">"Cộng đồng học tập rất hữu ích. Mình đã được giải đáp nhiều thắc mắc và có thêm động lực học mỗi ngày."</p>
+                <div class="mt-4 flex items-center">
+                    <img class="h-12 w-12 rounded-full" src="" alt="Avatar">
+                    <div class="ml-4">
+                        <p class="font-semibold text-slate-900">Võ Mai Anh</p>
+                        <p class="text-slate-500 text-sm">Sinh viên Đại Học Hoa Sen, TP.HCM</p>
+                    </div>
+                </div>
+            </div>
+            {{-- Testimonial Card 5 --}}
+            <div class="bg-slate-50 p-8 rounded-xl shadow-md">
+                <p class="text-slate-600">"Tính năng flashcard và ôn tập từ vựng rất thông minh. Mình có thể học mọi lúc mọi nơi trên điện thoại."</p>
+                <div class="mt-4 flex items-center">
+                    <img class="h-12 w-12 rounded-full" src="" alt="Avatar">
+                    <div class="ml-4">
+                        <p class="font-semibold text-slate-900">Lê Minh Châu</p>
+                        <p class="text-slate-500 text-sm">Sinh viên Đại Học Sư Phạm Hà Nội</p>
+                    </div>
+                </div>
+            </div>
+            {{-- Testimonial Card 6 --}}
+            <div class="bg-slate-50 p-8 rounded-xl shadow-md">
+                <p class="text-slate-600">"Giao diện thân thiện, nội dung bám sát đề thi thật. Nhờ HSK Web mà mình đã tự tin đạt HSK 5!"</p>
+                <div class="mt-4 flex items-center">
+                    <img class="h-12 w-12 rounded-full" src="" alt="Avatar">
+                    <div class="ml-4">
+                        <p class="font-semibold text-slate-900">Trần Nhật Minh</p>
+                        <p class="text-slate-500 text-sm">Sinh viên Đại Học Sư Phạm Hà Nội</p>
                     </div>
                 </div>
             </div>

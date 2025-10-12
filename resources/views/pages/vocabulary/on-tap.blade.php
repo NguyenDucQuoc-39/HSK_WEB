@@ -46,7 +46,7 @@
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             @php
             $levelStyles = [
-                1 => ['accent' => 'green-500'], 2 => ['accent' => 'sky-500'],
+                1 => ['accent' => 'green-500'], 2 => ['accent' => 'green-500'],
                 3 => ['accent' => 'yellow-500'], 4 => ['accent' => 'orange-500'],
                 5 => ['accent' => 'red-500'], 6 => ['accent' => 'purple-500'],
             ];
