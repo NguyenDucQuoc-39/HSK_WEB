@@ -21,7 +21,9 @@ return new class extends Migration
             'listening_image_true_false', // Nghe – chọn Đúng/Sai theo hình
             'listening_image_choice',     // Nghe – chọn hình đúng
             'listening_dialogue_choice',  // Nghe hội thoại – chọn đáp án đúng
-            'reading_image_choice',       // Câu – chọn hình đúng
+            'listening_image_match',      // Nghe – ghép hình với câu nói
+            'reading_image_true_false',   // Đọc – chọn Đúng/Sai theo hình
+            'reading_image_match',        // Đọc – chọn hình đúng
             'reading_match_pair',         // Ghép câu hỏi và câu trả lời
             'reading_fill_in_blank',      // Điền từ vào chỗ trống
         ]);

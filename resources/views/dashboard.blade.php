@@ -128,7 +128,7 @@
             <div class="bg-slate-50 p-8 rounded-xl shadow-md">
                 <p class="text-slate-600">"Giao diện thân thiện, nội dung bám sát đề thi thật. Nhờ HSK Web mà mình đã tự tin đạt HSK 5!"</p>
                 <div class="mt-4 flex items-center">
-                    <img class="h-12 w-12 rounded-full" src="https://i.pravatar.cc/150?u=a042581f4e29026704d" alt="Avatar">
+                    <img class="h-12 w-12 rounded-full" src="https://res.cloudinary.com/dgn0tvz2z/image/upload/v1760365632/anh13_ctrysm.jpg" alt="Avatar">
                     <div class="ml-4">
                         <p class="font-semibold text-slate-900">Nguyễn Đức Quốc</p>
                         <p class="text-slate-500 text-sm">Sinh viên Đại Học Phenikaa, Hà Nội</p>
@@ -139,7 +139,7 @@
             <div class="bg-slate-50 p-8 rounded-xl shadow-md">
                 <p class="text-slate-600">"Tính năng flashcard và ôn tập từ vựng rất thông minh. Mình có thể học mọi lúc mọi nơi trên điện thoại."</p>
                 <div class="mt-4 flex items-center">
-                    <img class="h-12 w-12 rounded-full" src="https://i.pravatar.cc/150?u=a042581f4e29026704e" alt="Avatar">
+                    <img class="h-12 w-12 rounded-full" src="https://res.cloudinary.com/dgn0tvz2z/image/upload/v1760365632/anh14_h1eibw.jpg" alt="Avatar">
                     <div class="ml-4">
                         <p class="font-semibold text-slate-900">Đặng Thanh Huyền</p>
                         <p class="text-slate-500 text-sm">Sinh viên Đại Học Phenikaa, Hà Nội</p>
@@ -150,44 +150,44 @@
             <div class="bg-slate-50 p-8 rounded-xl shadow-md">
                 <p class="text-slate-600">"Cộng đồng học tập rất hữu ích. Mình đã được giải đáp nhiều thắc mắc và có thêm động lực học mỗi ngày."</p>
                 <div class="mt-4 flex items-center">
-                    <img class="h-12 w-12 rounded-full" src="https://i.pravatar.cc/150?u=a042581f4e29026704f" alt="Avatar">
+                    <img class="h-12 w-12 rounded-full" src="https://res.cloudinary.com/dgn0tvz2z/image/upload/v1760365385/anh9_twrsgx.jpg" alt="Avatar">
                     <div class="ml-4">
-                        <p class="font-semibold text-slate-900">Hoàng Kỳ Anh</p>
-                        <p class="text-slate-500 text-sm">Sinh viên Học Viện Công Nghệ Bưu Chính Viễn Thông, Hà Nội</p>
+                        <p class="font-semibold text-slate-900">Nguyễn Anh Duy</p>
+                        <p class="text-slate-500 text-sm">Sinh viên Đại Học Kinh Tế Hà Nội</p>
                     </div>
                 </div>
             </div>
 
             {{-- Testimonial Card 4 --}}
             <div class="bg-slate-50 p-8 rounded-xl shadow-md">
-                <p class="text-slate-600">"Cộng đồng học tập rất hữu ích. Mình đã được giải đáp nhiều thắc mắc và có thêm động lực học mỗi ngày."</p>
+                <p class="text-slate-600">"Trang web rất dễ sử dụng, các bài thi thử và tài liệu ôn tập cực kỳ sát thực tế. Mình đã tiến bộ rõ rệt chỉ sau 2 tháng luyện tập!"</p>
                 <div class="mt-4 flex items-center">
-                    <img class="h-12 w-12 rounded-full" src="" alt="Avatar">
+                    <img class="h-12 w-12 rounded-full" src="https://res.cloudinary.com/dgn0tvz2z/image/upload/v1760365386/anh12_xnl5zg.jpg" alt="Avatar">
                     <div class="ml-4">
-                        <p class="font-semibold text-slate-900">Võ Mai Anh</p>
-                        <p class="text-slate-500 text-sm">Sinh viên Đại Học Hoa Sen, TP.HCM</p>
+                        <p class="font-semibold text-slate-900">Hoàng Thu Hồng</p>
+                        <p class="text-slate-500 text-sm">Sinh viên Đại Học Luật, Đại Học Quốc Gia Hà Nội</p>
                     </div>
                 </div>
             </div>
             {{-- Testimonial Card 5 --}}
             <div class="bg-slate-50 p-8 rounded-xl shadow-md">
-                <p class="text-slate-600">"Tính năng flashcard và ôn tập từ vựng rất thông minh. Mình có thể học mọi lúc mọi nơi trên điện thoại."</p>
+                <p class="text-slate-600">"Nhờ hệ thống luyện thi và cộng đồng hỗ trợ nhiệt tình, mình đã cải thiện kỹ năng tiếng Trung nhanh chóng và đạt kết quả cao ngoài mong đợi."</p>
                 <div class="mt-4 flex items-center">
-                    <img class="h-12 w-12 rounded-full" src="" alt="Avatar">
+                    <img class="h-12 w-12 rounded-full" src="https://res.cloudinary.com/dgn0tvz2z/image/upload/v1760365385/anh10_ntsowj.jpg" alt="Avatar">
                     <div class="ml-4">
-                        <p class="font-semibold text-slate-900">Lê Minh Châu</p>
-                        <p class="text-slate-500 text-sm">Sinh viên Đại Học Sư Phạm Hà Nội</p>
+                        <p class="font-semibold text-slate-900">Nguyễn Tùng Lâm</p>
+                        <p class="text-slate-500 text-sm">Sinh viên Đại Học Bách Khoa Hà Nội</p>
                     </div>
                 </div>
             </div>
             {{-- Testimonial Card 6 --}}
             <div class="bg-slate-50 p-8 rounded-xl shadow-md">
-                <p class="text-slate-600">"Giao diện thân thiện, nội dung bám sát đề thi thật. Nhờ HSK Web mà mình đã tự tin đạt HSK 5!"</p>
+                <p class="text-slate-600">"Mình rất ấn tượng với tính năng dịch và lưu từ mới. Nhờ đó, vốn từ của mình tăng lên rõ rệt sau mỗi buổi học!"</p>
                 <div class="mt-4 flex items-center">
-                    <img class="h-12 w-12 rounded-full" src="" alt="Avatar">
+                    <img class="h-12 w-12 rounded-full" src="https://res.cloudinary.com/dgn0tvz2z/image/upload/v1760365385/anh11_gvuebk.jpg" alt="Avatar">
                     <div class="ml-4">
-                        <p class="font-semibold text-slate-900">Trần Nhật Minh</p>
-                        <p class="text-slate-500 text-sm">Sinh viên Đại Học Sư Phạm Hà Nội</p>
+                        <p class="font-semibold text-slate-900">Hoàng Công Tấn</p>
+                        <p class="text-slate-500 text-sm">Sinh viên Đại Học FPT</p>
                     </div>
                 </div>
             </div>

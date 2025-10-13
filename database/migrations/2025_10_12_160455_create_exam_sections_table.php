@@ -18,6 +18,8 @@ return new class extends Migration
         $table->enum('type', ['listening', 'reading']);
         $table->integer('order')->default(1);
         $table->text('instruction')->nullable(); // Hướng dẫn làm bài cho phần này
+        // Thêm cột mới kiểu JSON để lưu "ngân hàng" đáp án
+        $table->json('instruction_options')->nullable(); // Lưu trữ các tùy chọn hướng dẫn làm bài
         $table->timestamps();
     });
 }

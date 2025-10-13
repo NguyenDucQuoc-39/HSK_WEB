@@ -17,6 +17,13 @@ class ExamSection extends Model
         'instruction',
     ];
 
+     /**
+     * Thêm thuộc tính này vào model.
+     * Nó sẽ tự động chuyển đổi cột 'instruction_options' từ JSON string sang array.
+     */
+    protected $casts = [
+        'instruction_options' => 'array',
+    ];
     /**
      * Một phần thi thuộc về một đề thi.
      */
